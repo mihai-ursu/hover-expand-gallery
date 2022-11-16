@@ -5,7 +5,7 @@ import styles from "./Header.module.scss";
 const Header: FunctionComponent = () => {
   return (
     <header className={styles.wrapper}>
-      Logo
+      <h1>Logo</h1>
       <nav className={styles.navigation}>
         <Link href="/" className={styles.menuLink}>
           Home
