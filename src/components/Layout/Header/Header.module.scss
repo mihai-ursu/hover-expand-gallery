@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   z-index: 10;
-  color: $color-white;
+  color: $color-dark-gray;
 }
 
 .navigation {
@@ -18,6 +18,6 @@
 }
 
 .menuLink {
-  color: $color-white;
+  color: $color-dark-gray;
   text-decoration: none;
 }
