@@ -1,23 +1,23 @@
 const data = [
   {
     name: "Joker",
-    image: "src/images/joker.jpg",
+    image: "/images/joker.jpg",
   },
   {
     name: "The Irishman",
-    image: "src/images/irishman.jpg",
+    image: "/images/irishman.jpg",
   },
   {
     name: "Parasite",
-    image: "src/images/parasite.jpg",
+    image: "/images/parasite.jpg",
   },
   {
     name: "1917",
-    image: "src/images/1917.jpg",
+    image: "/images/1917.jpg",
   },
   {
     name: "Once Upon a Time in Hollywood",
-    image: "src/images/hollywood.jpg",
+    image: "/images/hollywood.jpg",
   },
 ];
 

@@ -1,4 +1,32 @@
 .cardWrapper {
   min-height: 34rem;
-  background-color: bisque;
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+  height: 100%;
+}
+
+.movieName {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 1rem;
+  z-index: 2;
+}
+
+.titleOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: 1;
 }
