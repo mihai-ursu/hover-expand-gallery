@@ -6,7 +6,7 @@ import Card from "./components/Card/Card";
 const HoverGallery = () => {
   return (
     <section className={styles.wrapper}>
-      <h1 className={styles.headline}>Work</h1>
+      <h1 className={styles.headline}>Movies</h1>
       <div className={styles.galleryWrapper}>
         {data.map((movie) => (
           <Card

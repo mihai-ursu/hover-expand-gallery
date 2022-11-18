@@ -41,7 +41,13 @@ const Card = (props: CardProps) => {
         animate={{ opacity: isActive ? 1 : 0 }}
         className={styles.titleOverlay}
       />
-      <Image src={image} fill alt={movieName} className={styles.image} />
+      <Image
+        src={image}
+        fill
+        alt={movieName}
+        className={styles.image}
+        loading="eager"
+      />
     </motion.div>
   );
 };
